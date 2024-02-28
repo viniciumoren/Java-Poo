@@ -1,0 +1,26 @@
+
+package Teste;
+
+import Xadrez.Bispo;
+import Xadrez.Cavalo;
+import Xadrez.Peao;
+import Xadrez.Peca;
+
+/**
+ *
+ * @author Aluno
+ */
+public class PooXadrez {
+    
+    public static void main (String[] args) {
+    
+        Peca peao = new Peao();
+        Peca cavalo = new Cavalo();
+        Peca bispo = new Bispo();
+        
+        peao.mover();
+        peao.mover();
+        bispo.mover();
+    }
+    
+}
